@@ -1,63 +1,23 @@
-<<<<<<< Updated upstream
+
 //Breadth First Search Algorithm 
 #pragma once
 #include <stdio.h>
 #include <iostream>
 
-class BFS
-{
-private:
-	bool visited = false;
-	int count = 0;
-	int stageArray[];
-
-public:
-	//BFS class constructor 
-	BFS(int numberOfInput);
-
-	//bfsOfGraph 
-
-
-
-};
-
-
-BFS::BFS(int numberOfInput) {
-
-}
-
-BFS::bfsOfGraph() {
-	count = numberOfInput;
-
-	//Create int array for stage arrangment 
-	stageArray[count];
-
-	while
-
-}
-
-
-
-
-=======
-//Breadth First Search Algorithm 
-#pragma once
-#include <stdio.h>
-#include <iostream>
-
+//BFS class 
 class BFS
 {
 private:
 	bool visited;
 	int numHolder;
 	int stageArray[];
-	BFS* stage;
 
 public:
 	BFS(int numberOfInput);
 	BFS bfsOfGraph();
 	BFS bfsLinking();
 };
+
 
 //Function definition 
 
@@ -82,6 +42,21 @@ BFS::bfsOfGraph() {
 
 //bfsLinking function will arrange the order of elements based on user's input
 BFS::bfsLinking() {
+	
+	//nodes' number holder for linking 
+	int firstNode = 0;
+	int secondNode = 0;
+	
+	std::cout << "You have made " << numHolder << " nodes. \nNow it's time to link the nodes" << endl;
+	std::cout << "Link two different nodes \nType two different nodes' number you want to link each other" << endl;
+	std::cout << "Type here: ";
+	std::cin >> firstNode; 
+	std::cin >> secondNode; 
+	std::cout << "You are linking " << firstNode << " and " << secondNode << endl;
+
+
+
+
 
 
 }
